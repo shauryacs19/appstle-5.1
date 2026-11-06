@@ -1,0 +1,289 @@
+@import "tailwindcss";
+@import "./tokens.css";
+@import "./commerce-hero.css";
+@import "./pages.css";
+@import "./glass.css";
+@custom-variant short (@media (min-width: 1024px) and (max-height: 820px));
+
+:root {
+  --header-h: 5.5rem;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: calc(var(--header-h) + 0.75rem);
+    -webkit-text-size-adjust: 100%;
+  }
+  @media (min-width: 1024px) {
+    html { font-size: 90%; }
+  }
+  body {
+    background: var(--color-surface);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-feature-settings: "cv11", "ss01";
+    text-rendering: optimizeLegibility;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.025em;
+    text-wrap: balance;
+  }
+  p { text-wrap: pretty; }
+  ::selection { background: var(--color-brand-100); }
+}
+
+@layer components {
+  .scrollbar-none { scrollbar-width: none; }
+  .scrollbar-none::-webkit-scrollbar { display: none; }
+  .bg-dots {
+    background-image: radial-gradient(rgb(255 252 245 / 0.28) 1px, transparent 1.4px);
+    background-size: 18px 18px;
+  }
+  .bg-dots-ink {
+    background-image: radial-gradient(rgb(6 43 82 / 0.13) 1px, transparent 1.4px);
+    background-size: 16px 16px;
+  }
+  .mask-fade-x {
+    mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+  }
+  .eyebrow {
+    font-size: var(--text-xs);
+    line-height: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+}
+/* Background system (2026-11-02): V2's engineering grid only behind the hero (commerce-hero.css).
+   Everything after it sits on ivory scattered with small static line doodles, like a chat wallpaper,
+   and each section is its own rounded card on top of that. */
+:root {
+  --grid-line: rgb(23 32 54 / 0.05);
+  --grid-size: 48px;
+  --doodles: url("/patterns/commerce.svg"), url("/patterns/doodles.svg");
+  --card-gutter: 0.75rem;
+  --card-gap: 0.75rem;
+}
+@media (min-width: 640px) { :root { --card-gutter: 1.25rem; --card-gap: 1rem; } }
+@media (min-width: 1024px) { :root { --card-gutter: 1.5rem; --card-gap: 1.25rem; } }
+
+.home-pattern {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  gap: var(--card-gap);
+  padding-bottom: var(--card-gap);
+}
+.home-pattern::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: var(--doodles);
+  background-size: 300px 300px, 360px 360px;
+  background-position: 0 0, 150px 120px;
+  opacity: 0.09;
+}
+.home-pattern > section {
+  position: relative;
+  isolation: isolate;
+}
+
+/* Scroll reveal: each section card rises and settles as it enters, driven by scroll position itself
+   (no timers), so it stays calm and reverses cleanly. Browsers without scroll timelines show it as is. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .home-pattern > .section-card,
+    .home-pattern > section > .relative.isolate.mx-auto {
+      animation: card-rise linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 55%;
+    }
+  }
+}
+@keyframes card-rise {
+  from { opacity: 0.35; transform: translateY(48px) scale(0.985); }
+  to { opacity: 1; transform: none; }
+}
+
+/* Section cards: one rounded surface per section, the same width as the support and CTA cards. */
+.section-card {
+  width: min(100% - 2 * var(--card-gutter), var(--container-site));
+  margin-inline: auto;
+  border-radius: clamp(1.5rem, 3vw, 2.5rem);
+  background: var(--card-bg, var(--color-white));
+  box-shadow: inset 0 0 0 1px var(--card-line, var(--color-line));
+  overflow: clip;
+}
+.card-paper { --card-bg: var(--color-white); }
+.card-sand { --card-bg: var(--color-sand); --card-line: #ECE3D3; }
+.card-sage { --card-bg: var(--color-forest-50); --card-line: #CBEBD8; }
+.card-peach { --card-bg: var(--color-terracotta-50); --card-line: #FBD9C6; }
+
+/* Section accents: the headline highlight, eyebrow and small icons take the section's colour */
+.accent-cobalt { --accent: var(--color-brand); --accent-tint: var(--color-brand-50); }
+.accent-terracotta { --accent: var(--color-terracotta); --accent-tint: var(--color-terracotta-50); }
+.accent-forest { --accent: var(--color-forest); --accent-tint: var(--color-forest-50); }
+.accent-plum { --accent: var(--color-plum); --accent-tint: var(--color-plum-50); }
+
+.pattern-dark::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: var(--doodles);
+  background-size: 300px 300px, 360px 360px;
+  background-position: 0 0, 150px 120px;
+  filter: brightness(2.6);
+  opacity: 0.07;
+}
+@keyframes float {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  50% { transform: translate3d(0, -10px, 0); }
+}
+.btn-arrow { position: relative; display: inline-block; overflow: clip; }
+.btn-arrow > svg { position: absolute; inset: 0; width: 100%; height: 100%; transition: transform 0.5s var(--ease-smooth); }
+.btn-arrow > svg + svg { transform: translate3d(-140%, 140%, 0); }
+@media (hover: hover) {
+  .group\/btn:hover .btn-arrow > svg + svg { transform: none; }
+  .group\/btn:hover .btn-arrow > svg:first-child { transform: translate3d(140%, -140%, 0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+@keyframes orbit {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes shine {
+  0% {
+    transform: translateX(-100%) skewX(-18deg);
+  }
+  45%,
+  100% {
+    transform: translateX(100cqw) skewX(-18deg);
+  }
+}
+@keyframes rise {
+  0% {
+    transform: translateY(0) rotate(-4deg);
+    opacity: 0;
+  }
+  15%,
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(calc(-100cqh - 100%)) rotate(4deg);
+    opacity: 0;
+  }
+}
+@keyframes drive {
+  0% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+  8%,
+  78% {
+    opacity: 1;
+  }
+  86%,
+  100% {
+    transform: translateX(calc(100cqw - 100%));
+    opacity: 0;
+  }
+}
+@keyframes march {
+  to {
+    background-position-x: 14px;
+  }
+}
+.split-word {
+  display: inline-block;
+  overflow: clip;
+  padding: 0 0.06em 0.16em;
+  margin: 0 -0.06em -0.16em;
+}
+.split-inner {
+  display: inline-block;
+  transition: transform 1.15s var(--ease-out-expo);
+  transition-delay: calc(var(--d, 0s) + var(--l, 0) * 0.09s + var(--w, 0) * 0.025s);
+}
+[data-js] .split:not([data-shown]) .split-inner {
+  transform: translate3d(0, 112%, 0);
+}
+@media (prefers-reduced-motion: reduce) { .split-inner { transition-delay: 0s !important; } }
+:root { --page-tint: 0; }
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  pointer-events: none;
+  background: rgb(0 0 0 / var(--page-tint));
+}
+@media print { body::after { display: none; } }
+[data-spotlight] { position: relative; isolation: isolate; }
+[data-magnetic] {
+  transform: translate3d(var(--mag-x, 0px), var(--mag-y, 0px), 0);
+  transition-property: background-color, box-shadow, color, translate, transform;
+  transition-duration: 0.35s;
+  transition-timing-function: var(--ease-out-expo);
+}
+[data-tilt] {
+  transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+  transition: transform 0.5s var(--ease-out-expo), translate 0.5s var(--ease-out-expo), box-shadow 0.5s var(--ease-out-expo);
+  will-change: transform;
+}
+.btn-shine { position: relative; overflow: hidden; isolation: isolate; }
+.btn-shine::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(105deg, transparent 30%, rgb(255 252 245 / 0.32) 50%, transparent 70%);
+  transform: translateX(-120%);
+}
+@media (hover: hover) {
+  .btn-shine:hover::before { transform: translateX(120%); transition: transform 0.8s var(--ease-smooth); }
+}
+.hover-pop { transition: translate 0.4s var(--ease-spring), scale 0.4s var(--ease-spring), box-shadow 0.4s var(--ease-out-expo), filter 0.4s; }
+@media (hover: hover) {
+  .hover-pop:hover { translate: 0 -3px; scale: 1.06; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-magnetic], [data-tilt] { transform: none !important; }
+  .btn-shine::before { display: none; }
+}
+@keyframes bot-blink {
+  0%, 92%, 100% { transform: scaleY(1); }
+  95% { transform: scaleY(0.12); }
+}
+@keyframes bot-sparkle {
+  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }
+  50% { transform: scale(0.72) rotate(20deg); opacity: 0.75; }
+}
+.bot-eyes { transform-box: fill-box; transform-origin: center; animation: bot-blink 4.6s ease-in-out infinite; }
+.bot-sparkle { transform-box: fill-box; transform-origin: center; animation: bot-sparkle 3.2s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .bot-eyes, .bot-sparkle { animation: none; }
+}
+:focus-visible { outline: 2px solid var(--color-brand-ink); outline-offset: 3px; }
+html:has([data-mobile-nav]) [data-bot-root] { display: none; }
+
+.hit-area { position: relative; }
+.hit-area::after { content: ""; position: absolute; inset: -6px -4px; }
+[data-paused] .animate-marquee, [data-paused] .motion-safe\:animate-review-scroll { animation-play-state: paused !important; }

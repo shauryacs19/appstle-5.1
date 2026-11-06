@@ -1,0 +1,62 @@
+import { examplePlatforms, smoothTransitionBody, subscriptionBlocks, subscriptionSteps } from "./steps";
+import type { MigrationPage } from "./types";
+
+export const subscriptionsMigration: MigrationPage = {
+  product: "subscriptions",
+  slug: "subscriptions",
+  seoKey: "migrationSubscriptions",
+  name: "Subscriptions",
+  hero: {
+    title: "Looking to migrate your recurring orders to our subscriptions app?",
+    points: [
+      "Our dedicated team has you covered! With thousands of successful migrations under its belt, our team has the tools, experience, and hands-on expertise to help you with your custom migration.",
+      "Best of all, migrations to Appstle Subscriptions are complimentary to merchants across ALL plans!",
+    ],
+  },
+  free: true,
+  anywhere: {
+    title: "Migrate from anywhere",
+    body: "Appstle supports migrations from all V1 and V2 subscription apps in the Shopify ecosystem, as well as from other selective non-Shopify ecommerce platforms.",
+  },
+  platforms: examplePlatforms,
+  apps: {
+    title: "Example subscription apps you can migrate from",
+    names: [
+      "Bold",
+      "Stay AI",
+      "Wix",
+      "WooCommerce",
+      "WordPress",
+      "Kaching Subscriptions",
+      "Subi",
+      "InflowKit",
+      "Ongoing",
+      "Loop",
+      "Super Subscriptions",
+      "Yotpo",
+      "Chargebee",
+      "Awtomic",
+      "Magento",
+      "Subscription Plus",
+      "Skio",
+      "Utterbond",
+      "Recurpay",
+      "Propel",
+      "Casa",
+      "Recharge",
+      "Stripe",
+      "Recurly",
+      "Square",
+      "BigCommerce",
+      "Easy Subscriptions",
+      "RecurrinGo",
+    ],
+  },
+  stats: true,
+  blocks: [{ title: "Simplifying Your Subscription Management with Seamless Migrations", body: smoothTransitionBody }, ...subscriptionBlocks],
+  path: { title: "Subscription Migration Path", steps: subscriptionSteps },
+  cta: {
+    title: "Using another Shopify app, but want to move to Appstle Subscriptions?",
+    body: "Migrations to Appstle Subscriptions are complimentary to merchants across ALL plans!",
+  },
+};

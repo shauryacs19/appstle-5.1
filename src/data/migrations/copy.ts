@@ -1,0 +1,16 @@
+export const migrationCopy = {
+  eyebrow: "Free migration",
+  platformsTitle: "Example platforms you can migrate from",
+  statsEyebrow: "Migration statistics",
+  statsTitle: "Migration Statistics",
+  blocksEyebrow: "Why migrate with Appstle",
+  pathEyebrow: "Step by step",
+  stepOf: (i: number, n: number) => `Step ${i} of ${n}`,
+  fastest: (value: number, label: string) => ({ value: `${value}%`, label: `of migrations take ${label}` }),
+  freeLine: "Free on every plan",
+  install: "Install the",
+  checklist: "View checklist",
+  compareTitle: (app: string) => `Compare ${app} before you switch`,
+  hubCtaTitle: "Ready to move to Appstle?",
+  hubCtaBody: "Our dedicated migrations team will be holding your hands throughout!",
+};

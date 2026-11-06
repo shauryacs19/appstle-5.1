@@ -1,0 +1,154 @@
+@theme {
+  --gradient-brand: linear-gradient(135deg, #219bfb 0%, #0177f2 100%);
+
+  --color-brand-50: #EFF6FF;
+  --color-brand-100: #DBEAFE;
+  --color-brand-200: #BFDBFE;
+  --color-brand-300: #93C5FD;
+  --color-brand-400: #60A5FA;
+  --color-brand-500: #3B82F6;
+  --color-brand: #2563EB;
+  --color-brand-700: #1D4ED8;
+  --color-brand-800: #1E40AF;
+  --color-brand-900: #131c33;
+
+  --color-surface: #F4EFE6;
+  --color-white: #FFFFFF;
+  --color-surface-2: #F3EFE8;
+  --color-line: #EAE3D7;
+
+  --color-ink: #172036;
+  --color-ink-700: #333d55;
+  --color-ink-muted: #4f586c;
+  --color-ink-subtle: #5a6276;
+  --color-brand-ink: #1D4ED8;
+
+  --text-xs: max(0.75rem, 12px);
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-bricolage), var(--font-inter), ui-sans-serif, sans-serif;
+
+  --shadow-soft: 0 0 #0000;
+  --shadow-card: 0 0 #0000;
+  --shadow-float: 0 0 #0000;
+  --shadow-glow: 0 0 #0000;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-spring: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-smooth: cubic-bezier(0.4, 0, 0.1, 1);
+  --ease-curtain: cubic-bezier(0.76, 0, 0.24, 1);
+
+  --container-site: 86rem;
+  --animate-marquee: marquee var(--marquee-duration, 60s) linear infinite;
+  @keyframes marquee {
+    from { transform: translate3d(0, 0, 0); }
+    to { transform: translate3d(-50%, 0, 0); }
+  }
+  --spacing-section: clamp(2.25rem, 5.5svh, 4rem);
+  --spacing-section-tight: clamp(1.75rem, 4svh, 3rem);
+  --spacing-section-gap: clamp(2rem, 5svh, 3.5rem);
+  --spacing-band: clamp(3.5rem, min(9svh, 8vw), 6rem);
+}
+
+@theme inline {
+  /* section accent: a section sets --accent (see .accent-*), everything else falls back to cobalt */
+  --color-accent: var(--accent, var(--color-brand));
+  --color-accent-tint: var(--accent-tint, var(--color-brand-50));
+  --animate-review-scroll: review-scroll var(--dur, 80s) linear infinite;
+  @keyframes review-scroll {
+    to { transform: translate3d(-50%, 0, 0); }
+  }
+}
+@theme {
+  --color-cream: #F3EFE8;
+  --color-cream-50: #FFFFFF;
+  --color-cream-100: #FBF9F5;
+  --color-cream-200: #EFE8DC;
+  --color-cream-300: #E0D3BE;
+
+  --color-cobalt: #2563EB;
+  --color-cobalt-50: #EFF6FF;
+  --color-cobalt-100: #DBEAFE;
+  --color-cobalt-200: #BFDBFE;
+  --color-cobalt-300: #93C5FD;
+  --color-cobalt-400: #60A5FA;
+  --color-cobalt-600: #1D4ED8;
+  --color-cobalt-700: #1D4ED8;
+  --color-cobalt-800: #1E40AF;
+  --color-cobalt-900: #131c33;
+
+  --color-navy: #172036;
+  --color-navy-800: #1e2945;
+  --color-navy-700: #333d55;
+
+  --color-coral: #ff8c69;
+  --color-coral-50: #fff3ee;
+  --color-coral-100: #ffe3d8;
+  --color-coral-200: #ffc9b6;
+  --color-coral-700: #b5442a;
+  --color-peach: #ffd8c4;
+  --color-lavender: #c8b8ff;
+  --color-lavender-50: #f6f2ff;
+  --color-lavender-100: #ebe4ff;
+  --color-lavender-200: #ddd2ff;
+  --color-lavender-700: #5a3fc0;
+  --color-mint: #bfe7d0;
+  --color-mint-50: #effaf3;
+  --color-mint-100: #dcf3e5;
+  --color-mint-200: #c9ecd8;
+  --color-mint-700: #1b6a46;
+  --color-blush: #ffd3dd;
+  --color-blush-50: #fff3f6;
+  --color-blush-100: #ffe5eb;
+  --color-blush-700: #a8385a;
+  /* Ink & Ivory (2026-11-02): dark panels, section bands, quiet accents */
+  --color-ink-deep: #121a2e;
+  --color-ink-deep-2: #1a2440;
+  --color-sand: #F6F1E8;
+  --color-mist: #EEF3FA;
+  --color-mist-200: #D3DCE8;
+  --color-sage: #5F7A68;
+  --color-sage-50: #EEF2EC;
+  --color-amber: #F2B55A;
+  /* Accents tuned to OKLCH L≈0.48–0.51: each is ≥4.5:1 on ivory, sand and its own tint (measured 2026-11-02) */
+  --color-terracotta: #C2410C;
+  --color-terracotta-50: #FFEDE3;
+  --color-terracotta-100: #FED7C3;
+  /* Product-card blues, ink to ice (2026-11-02). azure/sky/powder/ice are decoration or sit under blue-ink text. */
+  /* The logo's blue, one step deeper so white text on it stays readable (#0974E0 4.6:1, #0A5FC0 6:1) */
+  /* Bright orange (2026-11-02, was V2 caramel #C48F58): lines, rules, dots and fills only, too light for text */
+  --color-orange: #F97316;
+  --color-orange-50: #FFF1E6;
+  --color-logo: #0A6CD6;
+  --gradient-logo: linear-gradient(135deg, #0974E0 0%, #0A5FC0 100%);
+  --color-blue-ink: #1E3A8A;
+  --color-azure: #3B82F6;
+  --color-sky-blue: #93C5FD;
+  --color-powder: #DBEAFE;
+  --color-ice: #EFF6FF;
+  /* Red fill for chips/badges with white text (4.8:1); terracotta (#C2410C) is the warm colour for text */
+  --color-red: #DC2626;
+  --color-stage: #F1F4F8;
+  --color-stage-line: #E1E7EF;
+  --color-forest: #15803D;
+  --color-forest-50: #E3F4EA;
+  --color-forest-100: #C6EBD4;
+  --color-plum: #7C3AED;
+  --color-plum-50: #F1EBFE;
+  --color-plum-100: #E4D9FD;
+  --color-sky: #09a9eb;
+  --color-sky-50: #eef8fd;
+  --color-sky-100: #d9f0fb;
+  --color-sky-200: #b3e1f6;
+  --color-sky-700: #0a6d99;
+
+  --shadow-hairline: 0 0 0 1px rgb(23 32 54 / 0.06);
+  --spacing-gutter: 1.25rem;
+}
+
+@theme inline {
+  --animate-partner-scroll: partner-scroll var(--dur, 30s) linear infinite;
+  @keyframes partner-scroll {
+    to { transform: translate3d(-33.3333%, 0, 0); }
+  }
+}

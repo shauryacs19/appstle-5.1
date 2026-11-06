@@ -1,0 +1,56 @@
+{
+  "source": "https://appstle.com/wp-json/wp/v2/ebook",
+  "importedAt": "2026-10-22",
+  "items": [
+    {
+      "id": 8991,
+      "slug": "getting-started-with-ecommerce-memberships",
+      "path": "/ebook/getting-started-with-ecommerce-memberships/",
+      "title": "Getting started with eCommerce Memberships",
+      "date": "2022-07-01T11:32:52",
+      "modified": "2023-10-06T07:30:41",
+      "seo": {
+        "title": "Getting started with eCommerce Memberships - Appstle",
+        "description": "Download Appstle's eBook to kickstart your eCommerce memberships journey. Gain expert insights into establishing, managing, and optimizing membership programs.",
+        "robots": "index"
+      },
+      "image": {
+        "src": "https://appstle.com/wp-content/uploads/2022/07/Memberships-E-Book.png",
+        "alt": "",
+        "width": 1343,
+        "height": 1719
+      },
+      "excerpt": "",
+      "html": "<p>Learn everything you need to know about setting up a successful ecommerce membership model on your store. In this guide, we cover what this business model is, difference between memberships and subscriptions, and detailed lesson-wise guide on how to set up a membership model on your ecommerce site. We have also shared some of our tips and tricks to help businesses succeed.</p>",
+      "headings": [],
+      "images": [],
+      "embeds": [],
+      "words": 62
+    },
+    {
+      "id": 8551,
+      "slug": "getting-started-with-ecommerce-subscriptions",
+      "path": "/ebook/getting-started-with-ecommerce-subscriptions/",
+      "title": "Getting started with eCommerce Subscriptions",
+      "date": "2022-06-13T10:55:53",
+      "modified": "2023-10-06T07:31:41",
+      "seo": {
+        "title": "Getting started with eCommerce Subscriptions - Appstle",
+        "description": "Unlock the secrets to eCommerce subscriptions with Appstle's eBook. Learn the foundational steps and strategies to launch and manage subscription services effectively.",
+        "robots": "index"
+      },
+      "image": {
+        "src": "https://appstle.com/wp-content/uploads/2022/06/E-Book.jpg",
+        "alt": "",
+        "width": 1343,
+        "height": 1719
+      },
+      "excerpt": "",
+      "html": "<p>Exploring the subscription model for your ecommerce business? Here’s a detailed guide on understanding the basics and how to set one up on your online store.</p>",
+      "headings": [],
+      "images": [],
+      "embeds": [],
+      "words": 26
+    }
+  ]
+}

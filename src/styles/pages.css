@@ -1,0 +1,51 @@
+@media (hover: hover) {
+  :hover > .btn-arrow > svg + svg,
+  .group\/btn:hover .btn-arrow > svg + svg {
+    transform: none;
+  }
+  :hover > .btn-arrow > svg:first-child,
+  .group\/btn:hover .btn-arrow > svg:first-child {
+    transform: translate3d(140%, -140%, 0);
+  }
+}
+
+@layer base {
+  .on-dark :focus-visible,
+  .on-dark:focus-visible { outline-color: #fff; }
+}
+
+@layer components {
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, rgb(6 43 82 / 0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(6 43 82 / 0.05) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+  .content-ph {
+    display: flex;
+    width: 100%;
+    max-height: 30rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.375rem;
+    padding: 1.25rem;
+    border-radius: var(--radius-2xl);
+    background: linear-gradient(135deg, var(--color-cream-100), var(--color-cobalt-50));
+    box-shadow: var(--shadow-hairline);
+    text-align: center;
+  }
+  .content-ph-tag {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-ink-subtle);
+  }
+  .content-ph-alt {
+    max-width: 34rem;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    color: var(--color-ink-muted);
+  }
+}

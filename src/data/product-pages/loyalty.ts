@@ -1,0 +1,265 @@
+import { ArrowRightLeft, Database, Gamepad2, Hourglass, Languages, Mail, Puzzle, Rocket, Store, Workflow } from "lucide-react";
+import { loyaltyMedia as m } from "@/data/media/loyalty";
+import { links } from "@/data/site";
+import type { ProductPageData } from "./types";
+
+const help = (path: string) => `https://help.appstle.com/en/${path}`;
+
+export const loyaltyPage: ProductPageData = {
+  id: "loyalty",
+  hero: {
+    title: "Build an unshakable customer base, with innovative and highly engaging loyalty programs",
+    lead: "Choose from multiple program types, to maximize store engagement and revenue.",
+    points: [
+      "Smartly gamify rewards awarding and redeeming, to build and sustain interest",
+      "Iteratively scale, with in-depth performance analytics, to achieve a high CLTV",
+      "Access 24x7x365 merchant support",
+    ],
+    visual: {
+      desktop: m.heroDesktop,
+      mobile: m.heroMobile,
+      toasts: [
+        { product: "loyalty", title: "+250 points", meta: "Referral reward" },
+        { product: "loyalty", title: "Reward redeemed", meta: "Free shipping" },
+      ],
+      description: "Appstle Loyalty program types (rewards, points, store credits, discounts, referrals) and a shopper's points widget on a phone.",
+      stage: "bg-gradient-to-br from-coral-200 via-coral to-coral-700",
+    },
+  },
+  overview: {
+    eyebrow: "Overview",
+    title: "A comprehensive loyalty solution built to grow your revenue, brand loyalty, and CLTV",
+    intro: "Your customers deserve the best. Unlock unmatched flexibility with Appstle Loyalty.",
+    cardsTitle: "Shopify's Most Powerful Loyalty Solution",
+    cards: [
+      {
+        icon: Gamepad2,
+        title: "Comprehensive activity rules to achieve unlimited use cases",
+        body: "Set smart and exhaustive rules on shopper activities that will fetch loyalty points and rewards.",
+        cta: { label: "Get in touch", href: links.contact },
+      },
+      {
+        icon: ArrowRightLeft,
+        title: "Impactful and engaging redemption rules to hold shopper loyalty strong",
+        body: "Provide engaging reward redemption avenues that add value to the loyalty program, while also maximizing your store revenue and CLTV.",
+        cta: { label: "Get in touch", href: links.contact },
+      },
+      {
+        icon: Database,
+        title: "Safe and secure shopper data collection for loyalty offers",
+        body: "As a natively integrated Shopify tool, Appstle does not store or use any shopper data!",
+        cta: { label: "Get in touch", href: links.contact },
+      },
+      {
+        icon: Puzzle,
+        title: "Seamless connect with third-party apps and tools for enriching experience",
+        body: "Successful loyalty programs are deeply integrated with dedicated tools for communication (eg. email), activities (eg. referrals, reviews), workflow (zapier), etc.",
+        cta: { label: "Get in touch", href: links.contact },
+      },
+    ],
+  },
+  explorer: {
+    eyebrow: "Features",
+    title: "Everything your loyalty program needs",
+    description: "Earn rules, rewards, store credit, referrals and VIP tiers — pick a feature to see it in the app.",
+    items: [
+      {
+        id: "earn",
+        label: "Earn rules",
+        title: "Points for every activity you want to reward",
+        body: "Set smart and exhaustive rules on shopper activities that will fetch loyalty points and rewards.",
+        bullets: [
+          "Core: purchase, subscription purchase, specific product or collection, new customer, store visit, birthday",
+          "Social media: Facebook, Instagram and Twitter follows",
+          "Reviews: Stamped.io, Loox, Judge.me and Product Reviews",
+          "Quantity-based points, newsletter and SMS sign-ups, static rules via Shopify Flow",
+        ],
+        media: m.earn,
+        caption: "Activity rules",
+        link: { href: help("articles/7065226-what-are-earn-rules"), label: "What are earn rules?" },
+      },
+      {
+        id: "redeem",
+        label: "Rewards & redemption",
+        title: "Rewards worth coming back for",
+        body: "Choose what points can be spent on. Redeeming creates a discount code the shopper applies at checkout.",
+        bullets: [
+          "Discount, free shipping and free product rewards",
+          "Product and collection discounts",
+          "Dynamic discounts that scale with the points redeemed",
+          "Maximum discount uses and discount expiration",
+        ],
+        media: m.redeem,
+        caption: "Reward rules",
+        link: { href: help("articles/7065411-what-are-redeem-rules"), label: "What are redeem rules?" },
+      },
+      {
+        id: "store-credit",
+        label: "Store credit",
+        title: "Store credit and cashback",
+        body: "Issue rewards as Shopify store credit — for example a percentage cashback on every purchase — or let shoppers convert points into credit. Credit appears as a toggle at checkout.",
+        bullets: [
+          "Cashback as a percentage of each purchase",
+          "Convert points into store credit",
+          "Applied at checkout through Shopify customer accounts",
+        ],
+        media: m.storeCredit,
+        caption: "Store credit",
+        link: { href: help("articles/11142561-understanding-store-credits-and-points-in-your-loyalty-program"), label: "Store credits and points" },
+      },
+      {
+        id: "cart-checkout",
+        label: "Cart & checkout redemption",
+        title: "Redeem right in the cart and checkout",
+        body: "A Redeem Widget above the cart subtotal shows points, store credit and rewards; on Shopify Plus, shoppers can also redeem in checkout and on the thank-you page.",
+        bullets: [
+          "Cart page Redeem Widget, added as a theme app block",
+          "Checkout and thank-you page redemption (Shopify Plus, checkout extensibility)",
+          "Logged-out shoppers are prompted to log in",
+          "Points are deducted when the order is placed",
+        ],
+        media: m.cartRedeem,
+        caption: "Redemption",
+        link: { href: help("articles/11454523-loyalty-redeem-widget"), label: "Loyalty Redeem Widget" },
+      },
+      {
+        id: "referrals",
+        label: "Referrals",
+        title: "A referral program that rewards both sides",
+        body: "Customers share a referral link; the referrer and the referred friend earn points or a discount when the friend signs up, visits or buys.",
+        bullets: [
+          "Separate rewards for the referring and the referred customer",
+          "Triggers: account creation, store visit or purchase",
+          "Auto approval days and customer-tag restrictions",
+          "Social sharing from the loyalty widget",
+        ],
+        media: m.referrals,
+        caption: "Referral offer",
+        link: { href: help("articles/9832249-what-is-a-referral-program"), label: "What is a referral program?" },
+      },
+      {
+        id: "vip",
+        label: "VIP tiers",
+        title: "VIP tiers for your best shoppers",
+        body: "Group customers into tiers by points earned or amount spent, with tier rewards, icons, labels and automatic customer tags.",
+        bullets: [
+          "Tier type: points earned or amount spent",
+          "Evaluation period: lifetime, one calendar year or custom",
+          "Tier rewards, icons and customer-facing labels",
+          "VIP tier shown on the customer account page",
+        ],
+        media: m.vip,
+        caption: "VIP tiers",
+        link: { href: help("articles/8137864-creating-the-vip-program"), label: "Creating the VIP program" },
+      },
+      {
+        id: "widget",
+        label: "Widget & loyalty page",
+        title: "A loyalty widget that looks like your store",
+        body: "Add a branded launcher or a dedicated loyalty page, and show points on product and account pages with embedded blocks.",
+        bullets: [
+          "Launcher or dedicated loyalty page, linked from your navigation",
+          "Labels, colors, images, custom HTML and custom CSS",
+          "Points to earn on product pages, balance on the account page",
+          "Deep links that open the widget at the right section",
+        ],
+        media: m.widget,
+        caption: "Widget customization",
+        link: { href: help("articles/7179926-widget-customizations"), label: "Widget customizations" },
+      },
+      {
+        id: "analytics",
+        label: "Analytics & customers",
+        title: "Performance analytics and customer records",
+        body: "Track how your program performs and manage every customer’s points, activity and rewards.",
+        bullets: [
+          "Customers, points earned and spent, activities completed, rewards claimed, referrals accepted",
+          "Email analytics: delivered, opened and clicked",
+          "Per-customer points, pending approvals and rewards",
+          "Customer imports, refunds and point expiration",
+        ],
+        media: m.analytics,
+        caption: "Customers",
+        link: { href: help("articles/7061366-getting-started"), label: "Getting started" },
+      },
+    ],
+  },
+  demos: {
+    eyebrow: "Try it",
+    title: "See your program through a shopper’s eyes",
+    description: "Hands-on versions of what your shoppers see. Everything stays in your browser — no store, cart or account involved.",
+    tryList: [
+      "Redeem points or store credit in the cart",
+      "Spend your way up the VIP tiers",
+      "Share a referral link and reward both sides",
+    ],
+  },
+  capabilities: {
+    eyebrow: "Capabilities",
+    title: "Flexible loyalty & reward programs with points, referrals, store credits & more",
+    items: [
+      { icon: Store, title: "Shopify POS", body: "Staff earn and redeem points in store with the Appstle Loyalty tile in Shopify POS.", href: help("articles/8242157-how-to-integrate-appstle-loyalty-with-shopify-pos") },
+      { icon: Mail, title: "Emails & notifications", body: "Built-in emails at key loyalty milestones, with custom HTML, dynamic variables and your own sending domain.", href: help("articles/7880337-email-templates") },
+      { icon: Workflow, title: "Bulk operations & Shopify Flow", body: "Adjust points, sync past orders, assign VIP tiers or send rewards in bulk — or add points from Shopify Flow.", href: help("articles/9329381-bulk-operations") },
+      { icon: Puzzle, title: "Appstle apps & review apps", body: "Native links with Appstle Subscriptions and Memberships, and points for reviews in Judge.me, Loox, Stamped.io and more.", href: help("articles/7062045-integration-with-appstle-subscriptions") },
+      { icon: Languages, title: "Multi-language & multi-currency", body: "Customizable loyalty programs in multi-language/multi-currencies, to drive CLTV.", href: help("articles/7153685-currencies-in-appstle-loyalty") },
+      { icon: Hourglass, title: "Points & reward expiry", body: "Decide when points and reward codes expire to keep shoppers coming back.", href: help("articles/10454954-point-expiration-configuration-how-it-works") },
+      { icon: ArrowRightLeft, title: "Free migration", body: "Import customers and points from your current loyalty app with a CSV in the Migrations tab.", href: help("articles/7062281-migrating-from-a-different-loyalty-program") },
+      { icon: Rocket, title: "Express setup", body: "Enable the app embed, follow the express setup checklist and test your program before launch.", href: help("articles/7061419-express-setup-checklist") },
+    ],
+  },
+  integrations: {
+    title: "Best in class integrations",
+    description: "We play nice with Shopify's most popular apps so you can integrate your Loyalty & Rewards program easily into your existing tech stack.",
+    note: "Want us to integrate with a new app? Ping us!",
+  },
+  migration: {
+    title: "Looking to migrate your store’s loyalty program to Appstle Loyalty & Rewards?",
+    body: "Appstle Loyalty comes equipped with a dedicated Migrations page containing all the tools you need to migrate from all major loyalty apps. Should you require assistance, our dedicated team has you covered. With thousands of successful migrations under its belt, our team has the tools, experience, and hands-on expertise to help you with your custom migration.",
+    sources: {
+      title: "Where merchants come from",
+      bars: [
+        { label: "Smile", value: 37 },
+        { label: "Rivo", value: 9 },
+        { label: "Yotpo", value: 8 },
+        { label: "Growave", value: 7 },
+        { label: "Joy", value: 7 },
+        { label: "BON Loyalty", value: 7 },
+        { label: "Glow", value: 7 },
+        { label: "LightSpeed", value: 6 },
+        { label: "WooCommerce", value: 5 },
+        { label: "Other", value: 7 },
+      ],
+    },
+    timeline: {
+      title: "Migration timeline",
+      bars: [
+        { label: "0–1 days", value: 96 },
+        { label: "2–3 days", value: 2 },
+        { label: "4–7 days", value: 2 },
+      ],
+    },
+  },
+  trust: [
+    {
+      kind: "security",
+      title: "Security and stability you can trust",
+      body: "Appstle supports some of Shopify's largest Shopify and Shopify Plus merchants. We know how important security and application stability are to our clients. Appstle's infrastructure scales behind the scenes so that we support any volume of transactions.",
+    },
+    {
+      kind: "support",
+      title: "24x7x365 customer support",
+      body: "The Appstle difference is our best in class customer support. You're only ever a couple minutes away from knowledgeable support engineers who can help you build your Loyalty & Rewards experience.",
+    },
+    {
+      kind: "enterprise",
+      title: "Have custom requirements? Let's talk about Appstle Enterprise plans",
+      body: "We'll help you build custom Loyalty & Rewards experiences on Appstle enterprise plans. Speak to an enterprise success specialist today to learn more.",
+      cta: { href: links.contact, label: "Talk to expert" },
+    },
+  ],
+  cta: {
+    title: "Appstle Loyalty boosts revenue, growth, and CLTV.",
+    body: "Install Appstle Loyalty & Rewards from the Shopify App Store, or book a demo with our team.",
+  },
+};

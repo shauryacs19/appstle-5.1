@@ -1,0 +1,25 @@
+{
+  "id": 3,
+  "slug": "privacy-policy",
+  "path": "/privacy-policy/",
+  "title": "Privacy Policy",
+  "date": "2021-03-22T09:10:38",
+  "modified": "2023-09-23T07:19:53",
+  "seo": {
+    "title": "Privacy Policy - Appstle",
+    "description": "Learn about Appstle's commitment to privacy through our comprehensive Privacy Policy. Understand how we handle and protect your data with transparency.",
+    "robots": "index"
+  },
+  "image": null,
+  "excerpt": "Privacy Policy",
+  "html": "<h2>Privacy Policy</h2>",
+  "headings": [
+    {
+      "level": 2,
+      "text": "Privacy Policy"
+    }
+  ],
+  "images": [],
+  "embeds": [],
+  "words": 2
+}

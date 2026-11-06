@@ -1,0 +1,173 @@
+{
+  "source": "https://appstle.com/faq/",
+  "title": "Frequently Asked Questions (FAQ)",
+  "importedAt": "2026-10-22",
+  "modified": "2025-06-09T10:51:13",
+  "groups": [
+    {
+      "title": "Appstle General",
+      "items": [
+        {
+          "question": "What is Appstle® Inc?",
+          "answer": "Appstle is a B2B SaaS company specializing in the e-commerce sector. Founded by a former Apple-Siri engineer, and a former BCG consultant and an ex-Amazonian, Appstle leverages cutting-edge technology to develop innovative, customizable, and cost-effective applications, aimed to help e-commerce brands with customer retention.Appstle’s solutions empower online retailers to deliver a seamless and exceptional end-to-end experience for their customers.",
+          "answerHtml": "<p>Appstle is a B2B SaaS company specializing in the e-commerce sector. Founded by a former Apple-Siri engineer, and a former BCG consultant and an ex-Amazonian, Appstle leverages cutting-edge technology to develop innovative, customizable, and cost-effective applications, aimed to help e-commerce brands with customer retention.</p><p>Appstle’s solutions empower online retailers to deliver a seamless and exceptional end-to-end experience for their customers.</p>"
+        },
+        {
+          "question": "Where is Appstle® Inc based?",
+          "answer": "Appstle® Inc. is headquartered in Menlo Park, California. Appstle also has business offices in Vancouver, British Columbia, and South Asia.",
+          "answerHtml": "<p>Appstle® Inc. is headquartered in Menlo Park, California. Appstle also has business offices in Vancouver, British Columbia, and South Asia.</p>"
+        },
+        {
+          "question": "What are Appstle’s Key Pillars and Product Focus?",
+          "answer": "Appstle offers advanced solutions designed to enhance customer loyalty, retention, and customer wallet share in the e-commerce space. Our flagship product, Appstle Subscriptions—along with Appstle Memberships, Appstle Loyalty, and Appstle Bundles—empowers merchants to build lasting customer relationships through automated recurring orders, exclusive membership offerings, personalized rewards programs, and dynamic product bundling. These tools help e-commerce businesses drive key growth metrics such as Average Order Value (AOV) and Customer Lifetime Value (CLTV), supporting long-term success.",
+          "answerHtml": "<p>Appstle offers advanced solutions designed to enhance customer loyalty, retention, and customer wallet share in the e-commerce space. Our flagship product, Appstle Subscriptions—along with Appstle Memberships, Appstle Loyalty, and Appstle Bundles—empowers merchants to build lasting customer relationships through automated recurring orders, exclusive membership offerings, personalized rewards programs, and dynamic product bundling. These tools help e-commerce businesses drive key growth metrics such as Average Order Value (AOV) and Customer Lifetime Value (CLTV), supporting long-term success.</p>"
+        },
+        {
+          "question": "Which e-commerce platforms are supported by Appstle?",
+          "answer": "Appstle’s suite of products is currently available exclusively on Shopify and Shopify Plus, with planned expansion to WooCommerce and BigCommerce as part of our long-term roadmap.",
+          "answerHtml": "<p>Appstle’s suite of products is currently available exclusively on Shopify and Shopify Plus, with planned expansion to WooCommerce and BigCommerce as part of our long-term roadmap.</p>"
+        },
+        {
+          "question": "How is payment handled for Appstle products?",
+          "answer": "As native Shopify applications, all Appstle products and solutions are processed exclusively through Shopify’s own billing and payment ecosystem.",
+          "answerHtml": "<p>As native Shopify applications, all Appstle products and solutions are processed exclusively through Shopify’s own billing and payment ecosystem.</p>"
+        }
+      ]
+    },
+    {
+      "title": "Appstle Subscriptions",
+      "items": [
+        {
+          "question": "What is a subscription, and how does it work with Appstle?",
+          "answer": "“Subscriptions”, is a business or revenue model, in which products or services are sold on an automated, recurring basis, instead of as a one-time transaction. It allows your customers to automatically and without any friction, receive and pay for products on a recurring basis. Appstle makes it easy to set up and manage flexible subscription plans on your Shopify or Shopify Plus store.",
+          "answerHtml": "<p>“Subscriptions”, is a business or revenue model, in which products or services are sold on an automated, recurring basis, instead of as a one-time transaction. It allows your customers to automatically and without any friction, receive and pay for products on a recurring basis. Appstle makes it easy to set up and manage flexible subscription plans on your Shopify or Shopify Plus store.</p>"
+        },
+        {
+          "question": "Why should I use Appstle Subscriptions App for my store?",
+          "answer": "Appstle helps increase customer retention and customer lifetime value (CLTV) by not only enabling recurring revenue, but also making the end-to-end merchant and shopper journey smooth and seamless. It offers deep customization, native Shopify integration, and powerful features such as inventory and order syncing, automatic product swaps, cancellation management, and advanced subscription management.",
+          "answerHtml": "<p>Appstle helps increase customer retention and customer lifetime value (CLTV) by not only enabling recurring revenue, but also making the end-to-end merchant and shopper journey smooth and seamless. It offers deep customization, native Shopify integration, and powerful features such as inventory and order syncing, automatic product swaps, cancellation management, and advanced <a href=\"/products/ecommerce-subscriptions/\">subscription management</a>.</p>"
+        },
+        {
+          "question": "Is Appstle Subscriptions App compatible with Shopify 2.0 and major payment gateways?",
+          "answer": "Absolutely! Appstle Subscriptions is fully compatible with Shopify 2.0 and supports major payment gateways like Shopify Payments, Authorize.net, and PayPal (for recurring payments).",
+          "answerHtml": "<p>Absolutely! Appstle Subscriptions is fully compatible with Shopify 2.0 and supports major payment gateways like Shopify Payments, Authorize.net, and PayPal (for recurring payments).</p>"
+        },
+        {
+          "question": "Can customers manage their own subscriptions?",
+          "answer": "Yes. Merchants can control how much editing leeway shoppers have in their subscriptions. Merchants can allow their customers to pause, skip, or cancel their subscriptions through a user-friendly customer portal provided by Appstle.",
+          "answerHtml": "<p>Yes. Merchants can control how much editing leeway shoppers have in their subscriptions. Merchants can allow their customers to pause, skip, or cancel their subscriptions through a user-friendly customer portal provided by Appstle.</p>"
+        },
+        {
+          "question": "What types of subscription plans can I offer?",
+          "answer": "Appstle supports flexible subscription models, such as pay-as-you-go, prepaid one-time, and prepaid auto-renew, letting you tailor plans to your product and audience.",
+          "answerHtml": "<p>Appstle supports flexible subscription models, such as pay-as-you-go, prepaid one-time, and prepaid auto-renew, letting you tailor plans to your product and audience.</p>"
+        },
+        {
+          "question": "How much does Appstle Subscriptions cost?",
+          "answer": "Appstle offers multiple pricing plans, including a free tier, to suit businesses of all sizes. Please visit our pricing page for more details. For enterprises and Shopify Plus merchants, Appstle has a custom plan, specifically tailored to your brand needs and store traffic.",
+          "answerHtml": "<p>Appstle offers multiple pricing plans, including a free tier, to suit businesses of all sizes. Please visit our pricing page for more details. For enterprises and Shopify Plus merchants, Appstle has a custom plan, specifically tailored to your brand needs and store traffic.</p>"
+        },
+        {
+          "question": "Can I preview the widget and portal before installing the app?",
+          "answer": "Yes, you can explore a live demo or preview the widget and customer portal to see how Appstle will look and function in your store, before you make any changes to your live website.",
+          "answerHtml": "<p>Yes, you can explore a live demo or preview the widget and customer portal to see how Appstle will look and function in your store, before you make any changes to your live website.</p>"
+        },
+        {
+          "question": "Can I customize how my subscription widget looks and where it appears?",
+          "answer": "Absolutely! You can customize and place our widget on your product pages, home page, collection pages, and even in quick-view and cart pages, to match your branding, and increase visibility.",
+          "answerHtml": "<p>Absolutely! You can customize and place our widget on your product pages, home page, collection pages, and even in quick-view and cart pages, to match your branding, and increase visibility.</p>"
+        },
+        {
+          "question": "Does Appstle Subscriptions support migrations from other apps?",
+          "answer": "Yes! Appstle Subscriptions supports migrations from all other subscription apps and platforms. We offer a seamless, white-glove migration service to ensure all your data is transferred accurately and without disruption. Our team handles the entire process for you, so you can focus on your business while we take care of the rest.",
+          "answerHtml": "<p>Yes! Appstle Subscriptions supports migrations from all other subscription apps and platforms. We offer a seamless, white-glove migration service to ensure all your data is transferred accurately and without disruption. Our team handles the entire process for you, so you can focus on your business while we take care of the rest.</p>"
+        }
+      ]
+    },
+    {
+      "title": "Appstle Membership",
+      "items": [
+        {
+          "question": "What is a membership, and how does it benefit my store?",
+          "answer": "A membership allows customers to pay a recurring fee, to access special benefits, such as exclusive content, products, discounts, or other perks (Think: Amazon Prime Membership or Costco Membership!). Enabling your customers to purchase a membership helps build loyalty, form a community, and generate a predictable revenue stream.",
+          "answerHtml": "<p>A membership allows customers to pay a recurring fee, to access special benefits, such as exclusive content, products, <a href=\"/products/appstle-bundles-and-discounts/\">discounts</a>, or other perks (Think: Amazon Prime Membership or Costco Membership!). Enabling your customers to purchase a membership helps build loyalty, form a community, and generate a predictable revenue stream.</p>"
+        },
+        {
+          "question": "How does Appstle Memberships work?",
+          "answer": "Appstle Memberships allows you to create and manage paid or free membership programs with customizable perks and access control. You can create different membership tiers, assign perks (like gated content, discounts, or early access), and automatically manage customer access based on their membership status.",
+          "answerHtml": "<p>Appstle Memberships allows you to create and manage paid or free <a href=\"/products/ecommerce-memberships/\">membership programs</a> with customizable perks and access control. You can create different membership tiers, assign perks (like gated content, discounts, or early access), and automatically manage customer access based on their membership status.</p>"
+        },
+        {
+          "question": "Is Appstle Memberships compatible with Shopify 2.0 and major payment gateways?",
+          "answer": "Absolutely! Appstle Memberships is fully compatible with Shopify 2.0 and supports major gateways like Shopify Payments, Authorize.net, and PayPal (for recurring payments).",
+          "answerHtml": "<p>Absolutely! Appstle Memberships is fully compatible with Shopify 2.0 and supports major gateways like Shopify Payments, Authorize.net, and PayPal (for recurring payments).</p>"
+        },
+        {
+          "question": "What types of perks can I offer members?",
+          "answer": "You can offer perks like exclusive discounts, gated content, member-only products, early access to sales, free shipping, or custom experiences.",
+          "answerHtml": "<p>You can offer perks like exclusive discounts, gated content, member-only products, early access to sales, free shipping, or custom experiences.</p>"
+        },
+        {
+          "question": "Can I customize where and how the membership widget appears?",
+          "answer": "Yes, you can customize the widget’s design and place it on your home page, collection pages, or product pages to align with your branding.",
+          "answerHtml": "<p>Yes, you can customize the widget’s design and place it on your home page, collection pages, or product pages to align with your branding.</p>"
+        },
+        {
+          "question": "Can I preview how Appstle Memberships looks before installing?",
+          "answer": "Yes, a live demo is available where you can explore the widget and customer portal to see the user experience before installing the app.",
+          "answerHtml": "<p>Yes, a live demo is available where you can explore the widget and customer portal to see the user experience before installing the app.</p>"
+        },
+        {
+          "question": "Does Appstle Memberships support migrations from other apps?",
+          "answer": "Yes! Appstle Memberships supports migrations from all other membership apps and platforms. We offer a seamless, white-glove migration service to ensure all your data is transferred accurately and without disruption. Our team handles the entire process for you, so you can focus on your business while we take care of the rest.",
+          "answerHtml": "<p>Yes! Appstle Memberships supports migrations from all other membership apps and platforms. We offer a seamless, white-glove migration service to ensure all your data is transferred accurately and without disruption. Our team handles the entire process for you, so you can focus on your business while we take care of the rest.</p>"
+        }
+      ]
+    },
+    {
+      "title": "Appstle Loyalty & Rewards",
+      "items": [
+        {
+          "question": "What is a loyalty program?",
+          "answer": "Loyalty programs are one of the most popular customer retention strategies, used to incentivize customers to stick with a particular store or brand. This is done by offering them benefits (e.g. loyalty points) for purchasing products from a store, or sometimes even visiting a store, that can be redeemed for things like a free product, store credits, discount, etc. There are plenty different types of costumer loyalty programs, click here to learn more.A loyalty program is ideal for stores or brands that have a considerable amount of competition (i.e. similar products and services). By offering loyalty programs, businesses can turn their customers’ attention to their brand, and sustain it for a long time. Here are 20 shopify loyalty program examples and insights.",
+          "answerHtml": "<p><a href=\"/products/appstle-loyalty-and-rewards/\">Loyalty programs </a>are one of the most popular customer retention strategies, used to incentivize customers to stick with a particular store or brand. This is done by offering them benefits (e.g. loyalty points) for purchasing products from a store, or sometimes even visiting a store, that can be redeemed for things like a free product, store credits, discount, etc. There are plenty different types of costumer loyalty programs, <a href=\"/blog/different-types-of-shopify-customer-loyalty-programs-for-ecommerce/\">click here</a> to learn more.</p><p>A loyalty program is ideal for stores or brands that have a considerable amount of competition (i.e. similar products and services). By offering loyalty programs, businesses can turn their customers’ attention to their brand, and sustain it for a long time. Here are 20 shopify <a href=\"/blog/20-shopify-customer-loyalty-program-examples-and-what-you-can-learn-from-them/\">loyalty program examples and insights.</a></p>"
+        },
+        {
+          "question": "What are activity rules?",
+          "answer": "Activity rules are a set of rules or guidelines set by the merchant for customers to follow, in order for the customers to earn loyalty points.",
+          "answerHtml": "<p>Activity rules are a set of rules or guidelines set by the merchant for customers to follow, in order for the customers to earn loyalty points.</p>"
+        },
+        {
+          "question": "What types of activity rules does Appstle Loyalty & Rewards offer?",
+          "answer": "Currently, we offer the following activity rules:Core:Purchase (any product)Purchase Subscription ProductBuy Specific ProductBuy Product From CollectionNew CustomerVisit StoreBirthday or Special daysSocial Media:Like page or follow any URL onFacebookFollow on InstagramFollow on TwitterReviews:Leave a review viaStamped.ioLeave a review via Loox.ioLeave a review via Judge.MeLeave a review via Product ReviewsAt Appstle, we are constantly expanding the activity rules we support. So, if there is an activity rule that you would like us to add, feel free to ping us!",
+          "answerHtml": "<p>Currently, we offer the following activity rules:</p><p><strong>Core:</strong></p><ul><li>Purchase (any product)</li><li>Purchase Subscription Product</li><li>Buy Specific Product</li><li>Buy Product From Collection</li><li>New Customer</li><li>Visit Store</li><li>Birthday or Special days</li></ul><p><strong>Social Media:</strong></p><ul><li>Like page or follow any URL on</li><li>Facebook</li><li>Follow on Instagram</li><li>Follow on Twitter</li></ul><p><strong>Reviews:</strong></p><ul><li>Leave a review via</li><li>Stamped.io</li><li>Leave a review via Loox.io</li><li>Leave a review via Judge.Me</li><li>Leave a review via Product Reviews</li></ul><p>At Appstle, we are constantly expanding the activity rules we support. So, if there is an activity rule that you would like us to add, feel free to ping us!</p>"
+        },
+        {
+          "question": "What are reward rules?",
+          "answer": "While activity rules determine what actions the customers should do to gain points, reward rules determine the ways in which the customers are allowed to spend it. Setting attractive rewards are essential to make the customer feel valued, and to sustain their interest and loyalty for a long period of time.",
+          "answerHtml": "<p>While activity rules determine what actions the customers should do to gain points, reward rules determine the ways in which the customers are allowed to spend it. Setting attractive rewards are essential to make the customer feel valued, and to sustain their interest and loyalty for a long period of time.</p>"
+        },
+        {
+          "question": "What types of rewards rules does Appstle Loyalty & Rewards offer?",
+          "answer": "Currently, we offer the following reward rules:Discount (any product)Free ShippingFree ProductProduct Discount (specific)Collection DiscountAt Appstle, we are constantly expanding the reward rules we support. So, if there is a reward rule that you would like us to add, feel free to ping us!",
+          "answerHtml": "<p>Currently, we offer the following reward rules:</p><ul><li>Discount (any product)</li><li>Free Shipping</li><li>Free Product</li><li>Product Discount (specific)</li><li>Collection Discount</li></ul><p>At Appstle, we are constantly expanding the reward rules we support. So, if there is a reward rule that you would like us to add, feel free to ping us!</p>"
+        },
+        {
+          "question": "Will Appstle Loyalty & Rewards integrate with only Appstle Subscriptions or other subscriptions apps too?",
+          "answer": "Appstle Loyalty will integrate with other subscription applications, and not just Appstle Subscriptions!That said, you may have the easiest time integrating with Appstle Subscriptions because Appstle Loyalty will work alongside it natively. All that is needed is to use the API (available in the application) to link up our Loyalty application with our Subscription application.",
+          "answerHtml": "<p>Appstle Loyalty will integrate with other subscription applications, and not just Appstle Subscriptions!</p><p>That said, you may have the easiest time integrating with Appstle Subscriptions because Appstle Loyalty will work alongside it natively. All that is needed is to use the API (available in the application) to link up our Loyalty application with our Subscription application.</p>"
+        },
+        {
+          "question": "Will migration from other Loyalty apps be free?",
+          "answer": "Absolutely! Feel free to reach out to our support team for more information about the migration process.",
+          "answerHtml": "<p>Absolutely! Feel free to reach out to our support team for more information about the migration process.</p>"
+        },
+        {
+          "question": "Are there video tutorials for the application?",
+          "answer": "Yes. We have a dedicated section inside the Appstle Loyalty merchant navigation (app dashboard within Shopify) for tutorial videos. They will cover all the important aspects of the application.",
+          "answerHtml": "<p>Yes. We have a dedicated section inside the Appstle Loyalty merchant navigation (app dashboard within Shopify) for tutorial videos. They will cover all the important aspects of the application.</p><p><img src=\"https://appstle.com/wp-content/uploads/2023/03/image-3.png\" alt=\"\" width=\"1600\" height=\"785\"></p>"
+        }
+      ]
+    }
+  ]
+}

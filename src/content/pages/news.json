@@ -1,0 +1,32 @@
+{
+  "id": 7774,
+  "slug": "news",
+  "path": "/news/",
+  "title": "News",
+  "date": "2022-05-09T06:59:58",
+  "modified": "2024-01-13T12:26:05",
+  "seo": {
+    "title": "News - Appstle",
+    "description": "Stay informed about the latest news and updates from Appstle. Explore our announcements to stay up-to-date with our developments.",
+    "robots": "index"
+  },
+  "image": null,
+  "excerpt": "News & Announcements",
+  "html": "<h2>News &amp; Announcements</h2><p><img src=\"https://appstle.com/wp-content/uploads/2024/12/Forbes-logo.png\" alt=\"Forbes logo\" width=\"1280\" height=\"398\"></p><h4>Appstle – E-COMMERCE SOFTWARE “GAMECHANGERS” | Forbes</h4><ul> <li>July 1, 2024</li> </ul><p><a href=\"/news/appstle-e-commerce-software-gamechangers-forbes/\"> Read More </a></p><p><img src=\"https://appstle.com/wp-content/uploads/2024/12/Bloomberg-Business-logo.png\" alt=\"Bloomberg Business logo\" width=\"1280\" height=\"398\"></p><h4>Appstle – Story of an e-commerce Revolution | Bloomberg Businessweek</h4><ul> <li>June 3, 2024</li> </ul><p><a href=\"/news/appstle-story-of-an-e-commerce-revolution-bloomberg-businessweek/\"> Read More </a></p><p><img src=\"https://appstle.com/wp-content/uploads/2023/11/USA-Today.png\" alt=\"\" width=\"1264\" height=\"660\"></p><h4>Appstle – A Pioneering E-Commerce Software Provider That Is Bridging the ‘Demand’ Gap | USA Today</h4><ul> <li>November 6, 2023</li> </ul><p><a href=\"/news/appstle-a-pioneering-e-commerce-software-provider-that-is-bridging-the-demand-gap-usa-today/\"> Read More </a></p><p><img src=\"https://appstle.com/wp-content/uploads/2023/10/Business_Insider_Logo.png\" alt=\"Business Insider Logo\" width=\"1280\" height=\"398\"></p><h4>Appstle Plans to Further Disrupt eCommerce Space with ‘Compelling Apps at Compelling Prices’ | Business Insider</h4><ul> <li>October 10, 2023</li> </ul><p><a href=\"/news/appstle-plans-to-further-disrupt-ecommerce-space-with-compelling-apps-at-compelling-prices/\"> Read More </a></p><p><img src=\"https://appstle.com/wp-content/uploads/2023/10/Yahoo-Finance.png\" alt=\"Yahoo Finance\" width=\"2544\" height=\"932\"></p><h4>Appstle Introduces Appstle Subscriptions, a Pioneering Solution in the Subscription Economy | Yahoo Finance</h4><ul> <li>October 9, 2023</li> </ul><p><a href=\"/news/appstle-introduces-appstle-subscriptions-a-pioneering-solution-in-the-subscription-economy-yahoo-finance/\"> Read More </a></p><p><img src=\"https://appstle.com/wp-content/uploads/2023/10/silicon.png\" alt=\"silicon india\" width=\"3193\" height=\"831\"></p><h4>Top 100 Promising Companies Managed by Indians in the US – 2022 | Silicon India</h4><ul> <li>December 30, 2022</li> </ul><p><a href=\"/news/top-100-promising-companies-managed-by-indians-in-the-us-2022-silicon-india/\"> Read More </a></p><p>Load More</p>",
+  "headings": [
+    {
+      "level": 2,
+      "text": "News & Announcements"
+    }
+  ],
+  "images": [
+    "https://appstle.com/wp-content/uploads/2024/12/Forbes-logo.png",
+    "https://appstle.com/wp-content/uploads/2024/12/Bloomberg-Business-logo.png",
+    "https://appstle.com/wp-content/uploads/2023/11/USA-Today.png",
+    "https://appstle.com/wp-content/uploads/2023/10/Business_Insider_Logo.png",
+    "https://appstle.com/wp-content/uploads/2023/10/Yahoo-Finance.png",
+    "https://appstle.com/wp-content/uploads/2023/10/silicon.png"
+  ],
+  "embeds": [],
+  "words": 112
+}

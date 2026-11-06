@@ -1,0 +1,61 @@
+{
+  "id": 4321,
+  "slug": "about",
+  "path": "/about/",
+  "title": "About",
+  "date": "2021-09-07T07:20:46",
+  "modified": "2025-05-16T10:41:56",
+  "seo": {
+    "title": "Get to Know Appstle - Behind E-Commerce Mastery",
+    "description": "Dive deeper into the world of Appstle, a B2B SaaS company, and unravel the stories behind our shopify apps. Explore our journey today.",
+    "robots": "index"
+  },
+  "image": null,
+  "excerpt": "About Appstle Appstle℠ was founded in 2021, by an Apple-Siri Engineer, and an-ex-BCG consultant. It is headquartered in Sillicon Valley (Menlo Park, California), with offices in British Columbia ( Canada ) and South Asia. Meet Our Founders Rakshithaa (Ria) Mahesh Co-founder and CEO | ria@appstle.com Ria is a hard-core business strategist. What drew Ria to…",
+  "html": "<h2>About Appstle</h2><p>Appstle℠ was founded in 2021, by an Apple-Siri Engineer, and an-ex-BCG consultant. It is headquartered in Sillicon Valley (Menlo Park, California), with offices in British Columbia ( Canada ) and South Asia.</p><h2>Meet Our Founders</h2><figure><img src=\"https://appstle.com/wp-content/uploads/2021/09/Ria-Mahesh.png\" alt=\"\" width=\"480\" height=\"480\"></figure> <h3>Rakshithaa (Ria) Mahesh</h3><p>Co-founder and CEO | ria@appstle.com</p> <ul> </ul> <p>Ria is a hard-core business strategist. What drew Ria to e-commerce, and specifically to solving the pain points of merchants in this industry, is the human element. She found customer behavior extremely fascinating, and from there, got drawn to working on some of the most significant E-commerce solutions that sellers need.<br>Ria splits her time between Menlo Park, California (where Appstle℠ HQ is located), and Vancouver, British Columbia (where Appstle’s product incubation office is located).</p> <figure><img src=\"https://appstle.com/wp-content/uploads/2022/09/Hemanth-1.png\" alt=\"\" width=\"480\" height=\"480\"></figure> <h3>Hemant Purswani</h3><p>Co-founder and Chief Product Officer | hemant@appstle.com</p> <ul> </ul> <p>Hemant is a coder by heart, soul, and mind! What drew Hemant to e-commerce was its relative nascency, which makes it an ocean full of problems to crack and solve. He is driven by the need to provide the most robust and long-term viable solutions to merchants, so they can focus on what matters the most – growing their business.</p><p>Hemant spends most of his time in the product incubation office in Vancouver, British Columbia, with frequent visits to Menlo Park, California, where Appstle is Head Quartered.</p> <h2>Mission Statement and Message From CEO</h2> <p>“Appstle’s main motto is to offer our merchants ‘compelling apps at compelling prices’. Having a strong e-commerce presence is no longer an optional feather in one’s cap, but a key necessity to run a successful business. This applies to businesses of all sizes, across all geographies. But still, to this day, most solutions and functionalities that make multi-billion dollar e-commerce giants stand out, are not available to other merchants. They are either too expensive, or come with significant flaws and compromises.</p><p>Appstle builds robust solutions that solve strategic pain points of our merchant partners, and enable them to have a successful e-commerce journey. We do this at compelling and tiered price points, to meet the needs of all our merchants, from small businesses to large enterprises. Our lean and vigorously focused business model allows us to do this!”</p> <img src=\"https://appstle.com/wp-content/uploads/2021/09/Sign.png\" alt=\"\" width=\"672\" height=\"348\"> <h4>Ria Mahesh</h4> <h2>Brand Deck</h2> <h2>Customer (e-commerce merchant) Growth Rate</h2> <h3>40,000+</h3> <h4>As on December 2024</h4> <h4>Mar 2021 - Dec 2024</h4> <img src=\"https://appstle.com/wp-content/uploads/2025/05/Graph.png\" alt=\"Graph\" width=\"2170\" height=\"1001\"> <p><strong>40,000+</strong><strong>(and growing by the hour)</strong> merchant partners who trust us to help them win the e-commerce game.</p> <p>** The founders would like to specially thank our highly talented and entrepreneurial product development team, and our extremely dedicated and passionate product and customer support team, for making this success possible.</p>",
+  "headings": [
+    {
+      "level": 2,
+      "text": "About Appstle"
+    },
+    {
+      "level": 2,
+      "text": "Meet Our Founders"
+    },
+    {
+      "level": 3,
+      "text": "Rakshithaa (Ria) Mahesh"
+    },
+    {
+      "level": 3,
+      "text": "Hemant Purswani"
+    },
+    {
+      "level": 2,
+      "text": "Mission Statement and Message From CEO"
+    },
+    {
+      "level": 2,
+      "text": "Brand Deck"
+    },
+    {
+      "level": 2,
+      "text": "Customer (e-commerce merchant) Growth Rate"
+    },
+    {
+      "level": 3,
+      "text": "40,000+"
+    }
+  ],
+  "images": [
+    "https://appstle.com/wp-content/uploads/2021/09/Ria-Mahesh.png",
+    "https://appstle.com/wp-content/uploads/2022/09/Hemanth-1.png",
+    "https://appstle.com/wp-content/uploads/2021/09/Sign.png",
+    "https://appstle.com/wp-content/uploads/2025/05/Graph.png"
+  ],
+  "embeds": [
+    "https://docs.google.com/presentation/d/e/2PACX-1vTa7HRN6b0NJ8O2eCoCwXhFG-J07mJfTUVwhEbIzEWRQYw8Qt38bekMd_0SmNQJpEm5NayMQr3tWoMH/embed?start=true&loop=true&delayms=3000",
+    "https://docs.google.com/presentation/d/e/2PACX-1vQ3ofCO9a6EB8bxCIA-db3hhk6H39xgzJjCot3ZKtqqDFpYPYmMpPzACr_PUNVwhA/embed?start=true&loop=true&delayms=3000"
+  ],
+  "words": 421
+}
